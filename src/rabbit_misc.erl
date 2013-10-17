@@ -65,11 +65,6 @@
          unlink_and_capture_exit/1]).
 -export([get_options/2]).
 
--import(mnesia).
--import(lists).
--import(cover).
--import(disk_log).
-
 %%----------------------------------------------------------------------------
 
 -ifdef(use_specs).

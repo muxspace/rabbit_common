@@ -48,8 +48,6 @@
 -export([check_empty_content_body_frame_size/0]).
 -export([ensure_content_encoded/2, clear_encoded_content/1]).
 
--import(lists).
-
 %%----------------------------------------------------------------------------
 
 -ifdef(use_specs).
